@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+    	<meta charset="utf-8">
+      	<title>TCC</title>
+
+  		<!-- Bootstrap core CSS -->
+  		<link href="css/bootstrap.min.css" rel="stylesheet">
+  		<link href="css/starter-template.css" rel="stylesheet">
+
+ 		<script src="bower_components/angular/angular.min.js"></script>
+  		<script src="bower_components/angular-route/angular-route.min.js"></script>
+
+		<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>
+
+		<script src="https://cdn.firebase.com/libs/angularfire/2.0.2/angularfire.min.js"></script>
+  	</head>
+
+  	<body ng-app="myApp">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              
+              
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <!-- Container -->
+        <div class="container starter-template">
+      		<div ng-view></div>
+        </div>
+
+        <!-- Module -->
+
+        <script src="js/app.js"></script>
+
+        <!-- Controllers -->
+        <script src="js/controllers/ListController.js"></script>    
+        <script src="js/controllers/AddController.js"></script>     
+        <script src="js/controllers/EditController.js"></script>
+        <script src="js/controllers/LoginController.js"></script>   
+    </body>
+</html>
